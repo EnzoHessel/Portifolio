@@ -19,10 +19,10 @@ const Works = () => {
             <p className='py-6'>Confira alguns dos meus trabalhos aqui</p>
         </div>
 
-        <div className='grid sm:grid-col-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div className='grid sm:grid-col-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-10'>
         {Works.map(({ id, src }) => (
             <div key={id}  className='shadow-md shadow-gray-600 rounded-lg'>
-              <a href="https://banco.bradesco/html/classic/produtos-servicos/investimentos/investmais.shtm" target='_blank'>
+              <a href="https://banco.bradesco/html/classic/produtos-servicos/investimentos/investmais.shtm" target='_blank' rel="noreferrer">
                 <img src={src} alt="teste" className='rounded-md duration-200 hover:scale-105 p-5'/>
               </a>
             </div>
