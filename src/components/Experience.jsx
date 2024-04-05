@@ -5,10 +5,10 @@ import js from '../assets/portifolio/javascript.svg'
 import reactImage from '../assets/portifolio/react.svg'
 import github from '../assets/portifolio/github.svg'
 import tailwind from '../assets/portifolio/tailwind.svg'
-import vue from '../assets/portifolio/vue.svg'
-import bootstrap from '../assets/portifolio/bootstrap.svg'
+// import vue from '../assets/portifolio/vue.svg'
+// import bootstrap from '../assets/portifolio/bootstrap.svg'
 import typeScript from '../assets/portifolio/typescript.svg'
-import vite from '../assets/portifolio/vite.svg'
+// import vite from '../assets/portifolio/vite.svg'
 import next from '../assets/portifolio/next.svg'
 
 const Experience = () => {
@@ -49,18 +49,18 @@ const Experience = () => {
             src: tailwind,
             style: 'shadow-sky-400'
         },
-        {
-            id: 7,
-            label: 'Bootstrap',
-            src: bootstrap,
-            style: 'shadow-purple-800'
-        },
-        {
-            id: 8,
-            label: 'Vue',
-            src: vue,
-            style: 'shadow-green-500'
-        },
+        // {
+        //     id: 7,
+        //     label: 'Bootstrap',
+        //     src: bootstrap,
+        //     style: 'shadow-purple-800'
+        // },
+        // {
+        //     id: 8,
+        //     label: 'Vue',
+        //     src: vue,
+        //     style: 'shadow-green-500'
+        // },
         {
             id: 9,
             label: 'Typescript',
@@ -73,12 +73,12 @@ const Experience = () => {
             src: next,
             style: 'shadow-white'
         },
-        {
-            id: 11,
-            label: 'Vite',
-            src: vite,
-            style: 'shadow-purple-400'
-        },
+        // {
+        //     id: 11,
+        //     label: 'Vite',
+        //     src: vite,
+        //     style: 'shadow-purple-400'
+        // },
     ]
     
   return (
