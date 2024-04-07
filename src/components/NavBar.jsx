@@ -23,10 +23,10 @@ const NavBar = () => {
       id: 4,
       link: 'experience',
     },
-    {
-      id: 5,
-      link: 'contact',
-    },
+    // {
+    //   id: 5,
+    //   link: 'contact',
+    // },
   ]
 
   const handleLinkClick = () => {
